@@ -1,4 +1,5 @@
 import {mobil, geniusBringsGlory} from "./stock.js";
+import _ from 'lodash';
 
 console.log("Menyalakan mesin kopi");
 console.log("Menggiling biji kopi");
@@ -10,6 +11,11 @@ console.log("Kopi Anda sudah siap!");
 
 console.log(mobil);
 console.log(geniusBringsGlory);
+
+const myArray = [1,2,3,4]
+const sum = _.sum(myArray) //implementasi lodash memudahkan
+
+console.log(sum);
 
 // const {coffeeStock, isCoffeMachineReady} = require('./state.js')
 
